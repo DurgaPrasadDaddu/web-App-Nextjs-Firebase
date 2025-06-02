@@ -4,10 +4,10 @@ import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { db } from "../../../firebase";
 import { doc, getDoc } from "firebase/firestore";
-import ProjectImages from "../components/ProjectImages";
-import ProjectVideos from "../components/ProjectVideos";
-import ProjectMap from "../components/ProjectMap";
-import ProjectChart from "../components/ProjectChart";
+import ProjectImages from "../../../components/ProjectImages";
+import ProjectVideos from "../../../components/ProjectVideos";
+import ProjectMap from "../../../components/ProjectMap";
+import ProjectChart from "../../../components/ProjectChart";
 import LogoutButton from "../../../lib/auth/logout";
 
 export default function ProjectDetailsPage() {
